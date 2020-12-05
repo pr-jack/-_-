@@ -1,0 +1,6 @@
+*.pdf
+*.psd
+node_modules/
+build/
+npm-debug.*
+Thumbs.db
