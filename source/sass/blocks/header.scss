@@ -6,7 +6,8 @@
 }
 
 .page-header {
-  height: 768px;
+  position: relative;
+  height: 778px;
   background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
@@ -19,34 +20,39 @@
   align-items: center;
 }
 
+.page-header__burger {
+  width: 24px;
+  height: 16px;
+}
+
 .page-header__title {
-  margin-top: 140px;
-  max-width: 510px;
+  margin-top: 86px;
+  max-width: 515px;
   font-family: $font-title;
   font-size: 64px;
   line-height: 74px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.055em;
   text-align: left;
-  color: $color-text-base;
+  color: $color-text-primary;
 }
 
 .page-header__description {
   max-width: 425px;
-  font-family: $font-base;
+  font-family: $font-primary;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
   text-align: left;
-  color: $color-text-base;
+  color: $color-text-primary;
 
 }
 
 .page-header__button {
   display: block;
-  margin-top: 70px;
+  margin-top: 75px;
   width: 220px;
-  padding: 10px 0;
-  font-family: $font-base;
+  padding: 15px 0;
+  font-family: $font-primary;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.04em;
@@ -59,8 +65,8 @@
 
 .page-header__image {
   position: absolute;
-  top: 62px;
-  right: 32px;
+  top: 104px;
+  right: 23px;
   width: 688px;
   height: 613px;
 }
