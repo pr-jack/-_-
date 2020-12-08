@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Galien-Regular";
-  src: url("../fonts/Galien-Regular.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Galien-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-       url("../fonts/Galien-Regular.woff2") format("woff2"), /* Pretty Modern Browsers */
-       url("../fonts/Galien-Regular.woff") format("woff"), /* Pretty Modern Browsers */
-       url("../fonts/Galien-Regular.ttf")  format("truetype"), /* Safari, Android, iOS */
-       url("../fonts/Galien-Regular.svg") format("svg"); /* Legacy iOS */
+  src: url("../fonts/Galien-Regular/Galien-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Galien-Regular/Galien-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/Galien-Regular/Galien-Regular.woff2") format("woff2"), /* Pretty Modern Browsers */
+       url("../fonts/Galien-Regular/Galien-Regular.woff") format("woff"), /* Pretty Modern Browsers */
+       url("../fonts/Galien-Regular/Galien-Regular.ttf")  format("truetype"), /* Safari, Android, iOS */
+       url("../fonts/Galien-Regular/Galien-Regular.svg") format("svg"); /* Legacy iOS */
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -13,13 +13,26 @@
 
 @font-face {
   font-family: "Gilroy-Regular";
-  src: url("../fonts/Gilroy-Regular.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-       url("../fonts/Gilroy-Regular.woff2") format("woff2"), /* Pretty Modern Browsers */
-       url("../fonts/Gilroy-Regular.woff") format("woff"), /* Pretty Modern Browsers */
-       url("../fonts/Gilroy-Regular.ttf")  format("truetype"), /* Safari, Android, iOS */
-       url("../fonts/Gilroy-Regular.svg") format("svg"); /* Legacy iOS */
+  src: url("../fonts/Gilroy-Regular/Gilroy-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-Regular/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/Gilroy-Regular/Gilroy-Regular.woff2") format("woff2"), /* Pretty Modern Browsers */
+       url("../fonts/Gilroy-Regular/Gilroy-Regular.woff") format("woff"), /* Pretty Modern Browsers */
+       url("../fonts/Gilroy-Regular/Gilroy-Regular.ttf")  format("truetype"), /* Safari, Android, iOS */
+       url("../fonts/Gilroy-Regular/Gilroy-Regular.svg") format("svg"); /* Legacy iOS */
   font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff2") format("woff2"), /* Pretty Modern Browsers */
+       url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff") format("woff"), /* Pretty Modern Browsers */
+       url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.ttf")  format("truetype"), /* Safari, Android, iOS */
+       url("../fonts/Gilroy-SemiBold/Gilroy-SemiBold.svg") format("svg"); /* Legacy iOS */
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }

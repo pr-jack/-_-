@@ -2,6 +2,10 @@
   display: flex;
 }
 
+.about {
+  padding-bottom: 214px;
+}
+
 .about__title {
   padding-top: 20px;
   max-width: 360px;
@@ -86,10 +90,11 @@
   &--link {
     display: block;
     margin-top: 30px;
+    width: 125px;
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
-    color: $color-link;
+    color: $color-blue-4;
 
     img {
       margin-left: 23px;
