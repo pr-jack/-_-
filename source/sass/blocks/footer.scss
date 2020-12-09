@@ -1,0 +1,143 @@
+.footer__page {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 1270px;
+  color: $color-primary;
+  background-color: $color-blue-2;
+  border-radius: 0px 200px 0px 0px;
+}
+
+.wrapper__footer {
+  margin-left: 213px;
+}
+
+.footer__top {
+  display: flex;
+  padding-top: 91px;
+  padding-bottom: 190px;
+}
+
+.footer__title {
+  padding-bottom: 34px;
+  width: 317px;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+}
+.footer__description {
+  width: 460px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+
+.footer__button  {
+  margin-left: 180px;
+  padding: 15px 0;
+  width: 220px;
+  align-self: center;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  background-color: $color-blue-4;
+  color: $color-primary;
+  border-radius: 10px;
+}
+
+.footer__bottom {
+  display: flex;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+
+  &--title {
+    padding-left: 17px;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+  }
+}
+
+.contacts__list {
+  padding-bottom: 40px;
+  width: 264px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+
+.contacts__item {
+  padding-bottom: 23px;
+
+  &--adress {
+    background: url("../img/footer/A.png") no-repeat 0 4px;
+    padding-left: 35px;
+  }
+
+  &--phone {
+    background: url("../img/footer/T.png") no-repeat 0 4px;
+    padding-left: 35px;
+  }
+
+  &--email {
+    background: url("../img/footer/E.png") no-repeat 0 4px;
+    padding-left: 35px;
+  }
+}
+
+.footer__copyright {
+  padding-bottom: 64px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  opacity: 0.4;
+}
+
+.footer__aboutus {
+  margin-left: 111px;
+}
+
+.aboutus__title {
+  padding-bottom: 32px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+
+.aboutus__list {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+
+.aboutus__item {
+  padding-bottom: 16px;
+}
+
+.aboutus__item a {
+  color: $color-primary;
+}
+
+.footer__followus {
+  margin-left: 79px;
+}
+
+.followus__title {
+  padding-bottom: 37px;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+
+.followus__item {
+  padding-bottom: 23px;
+}
+
+.followus__item a {
+  color: $color-primary;
+}
