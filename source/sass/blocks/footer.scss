@@ -82,11 +82,19 @@
   &--phone {
     background: url("../img/footer/T.png") no-repeat 0 4px;
     padding-left: 35px;
+
+    a {
+      color: $color-primary;
+    }
   }
 
   &--email {
     background: url("../img/footer/E.png") no-repeat 0 4px;
     padding-left: 35px;
+
+    a {
+      color: $color-primary;
+    }
   }
 }
 
