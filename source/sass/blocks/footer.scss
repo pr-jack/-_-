@@ -1,11 +1,14 @@
 .footer__page {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 1270px;
   color: $color-primary;
   background-color: $color-blue-2;
   border-radius: 0px 200px 0px 0px;
+
+  &--index {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 .wrapper__footer {
