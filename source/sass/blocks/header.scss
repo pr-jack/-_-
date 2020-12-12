@@ -97,11 +97,17 @@
 
   &--contact {
     position: relative;
-    width: 1366px;
+    max-width: 1366px;
     height: 250px;
+    background-image: url("../img/contact/header.jpg");
     background-color: $color-blue-2;
   }
 }
+
+.contact-layout__image {
+  max-width: 1366px;
+}
+
 .page-header__text {
   position: absolute;
   margin: auto;

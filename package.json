@@ -1,7 +1,7 @@
 {
-  "name": "Prepodam",
+  "name": "digital-element",
   "private": true,
-  "description": "Prepodam",
+  "description": "digital-element",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.1.x",

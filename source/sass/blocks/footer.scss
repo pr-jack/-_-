@@ -1,5 +1,5 @@
 .footer__page {
-  width: 1270px;
+  max-width: 1270px;
   color: $color-primary;
   background-color: $color-blue-2;
   border-radius: 0px 200px 0px 0px;
@@ -8,6 +8,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 1270px;
   }
 }
 
